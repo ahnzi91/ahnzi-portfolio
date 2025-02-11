@@ -154,14 +154,16 @@ const Home = () => {
               </div>
               <div className="flex justify-start space-x-2">
                 <a
-                  href=""
+                  href="https://github.com/ahnzi91/i-land"
                   className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                  target="_blank"
                 >
                   Github
                 </a>
                 <a
-                  href=""
+                  href="https://i-land.netlify.app/"
                   className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                  target="_blank"
                 >
                   라이브 데모
                 </a>

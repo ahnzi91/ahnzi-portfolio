@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { IconContext } from "react-icons";
 import { FaMoon } from "react-icons/fa6";
 
 const Header = () => (
@@ -24,9 +23,7 @@ const Header = () => (
           연락처
         </Link>
         <button className="w-10 h-10 p-2 bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-blue-500">
-          <IconContext.Provider value={{ size: "1.5rem" }}>
-            <FaMoon />
-          </IconContext.Provider>
+          <FaMoon className="text-2xl text-gray-700" />
         </button>
       </div>
     </nav>
