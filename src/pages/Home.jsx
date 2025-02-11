@@ -1,4 +1,4 @@
-import { FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa6";
+import { FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
 
@@ -78,8 +78,182 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-cyan-200 h-60">
+      <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">프로젝트</h2>
+        <div className="grid grid-cols-2 gap-6">
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+            <img
+              className="object-cover w-full h-48"
+              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
+              alt="굿즈 스토어 이미지"
+            />
+            <div className="p-6">
+              <h3 className="mb-4 text-xl font-semibold text-gray-800">
+                굿즈 스토어
+              </h3>
+              <div className="mb-4 space-x-2">
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  React
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  JavaScript
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  TailwindCSS
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Zustand
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Tanstack
+                </span>
+              </div>
+              <div className="flex justify-start space-x-2">
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                >
+                  Github
+                </a>
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                >
+                  라이브 데모
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+            <img
+              className="object-cover w-full h-48"
+              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
+              alt="굿즈 스토어 이미지"
+            />
+            <div className="p-6">
+              <h3 className="mb-4 text-xl font-semibold text-gray-800">
+                굿즈 스토어
+              </h3>
+              <div className="mb-4 space-x-2">
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  React
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  JavaScript
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  TailwindCSS
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Zustand
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Tanstack
+                </span>
+              </div>
+              <div className="flex justify-start space-x-2">
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                >
+                  Github
+                </a>
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                >
+                  라이브 데모
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+            <img
+              className="object-cover w-full h-48"
+              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
+              alt="굿즈 스토어 이미지"
+            />
+            <div className="p-6">
+              <h3 className="mb-4 text-xl font-semibold text-gray-800">
+                굿즈 스토어
+              </h3>
+              <div className="mb-4 space-x-2">
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  React
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  JavaScript
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  TailwindCSS
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Zustand
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Tanstack
+                </span>
+              </div>
+              <div className="flex justify-start space-x-2">
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                >
+                  Github
+                </a>
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                >
+                  라이브 데모
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+            <img
+              className="object-cover w-full h-48"
+              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
+              alt="굿즈 스토어 이미지"
+            />
+            <div className="p-6">
+              <h3 className="mb-4 text-xl font-semibold text-gray-800">
+                굿즈 스토어
+              </h3>
+              <div className="flex flex-wrap max-w-full gap-2 mb-4 overflow-hiddn">
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  React
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  JavaScript
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  TailwindCSS
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Zustand
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Tanstack
+                </span>
+              </div>
+              <div className="flex justify-start space-x-2">
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                >
+                  Github
+                </a>
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                >
+                  라이브 데모
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
       <section className="bg-green-200 h-60">
         <h2 className="mb-6 text-3xl font-bold">연락처</h2>
