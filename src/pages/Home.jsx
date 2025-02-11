@@ -1,6 +1,7 @@
-import { FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
+import { FaCss3Alt, FaGithub, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiNextdotjs } from "react-icons/si";
+import { SiGmail, SiNextdotjs, SiVelog } from "react-icons/si";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -255,8 +256,88 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="bg-green-200 h-60">
+      <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">연락처</h2>
+        <div className="grid grid-cols-2 gap-8">
+          <form id="contactForm" className="space-y-4">
+            <div>
+              <label htmlFor="name" className="block mb-1 font-medium">
+                이름
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                name="name"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block mb-1 font-medium">
+                이메일
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                name="email"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="name" className="block mb-1 font-medium">
+                메시지
+              </label>
+              <textarea
+                type="text"
+                id="name"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                name="name"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="px-6 py-2 text-white transition-colors bg-blue-600 rounded-md hover:bg-blue-500"
+            >
+              이메일 보내기
+            </button>
+          </form>
+          <div className="flex flex-col items-center justify-center gap-y-4">
+            <a
+              href="#"
+              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              target="_blank"
+            >
+              <FaGithub />
+              <span>Github</span>
+            </a>
+            <a
+              href="#"
+              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              target="_blank"
+            >
+              <SiVelog />
+              <span>Blog</span>
+            </a>
+            <a
+              href="#"
+              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              target="_blank"
+            >
+              <SiGmail />
+              <span>ahnzi91@gmail.com</span>
+            </a>
+            <a
+              href="#"
+              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              target="_blank"
+            >
+              <MdOutlinePhoneIphone />
+              <span>010-8869-4712</span>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   );
