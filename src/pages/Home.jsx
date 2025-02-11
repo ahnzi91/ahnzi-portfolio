@@ -1,3 +1,7 @@
+import { FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa6";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
+
 const Home = () => {
   return (
     <main className="container max-w-4xl px-6 py-12 mx-auto">
@@ -44,8 +48,35 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="bg-blue-200 h-60">
+      <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">기술</h2>
+
+        <div className="grid grid-cols-3 gap-4">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <FaHtml5 className="mb-1 text-4xl text-red-500" />
+            <h3 className="text-lg font-semibold">HTML5</h3>
+          </div>
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <FaCss3Alt className="mb-1 text-4xl text-blue-500" />
+            <h3 className="text-lg font-semibold">CSS3</h3>
+          </div>
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <FaJs className="mb-1 text-4xl text-yellow-400" />
+            <h3 className="text-lg font-semibold">JavaScript</h3>
+          </div>
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <FaReact className="mb-1 text-4xl text-blue-400" />
+            <h3 className="text-lg font-semibold">React</h3>
+          </div>
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <BiLogoTypescript className="mb-1 text-4xl text-blue-800" />
+            <h3 className="text-lg font-semibold">TypeScript</h3>
+          </div>
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+            <SiNextdotjs className="mb-1 text-4xl" />
+            <h3 className="text-lg font-semibold">Next.js</h3>
+          </div>
+        </div>
       </section>
       <section className="bg-cyan-200 h-60">
         <h2 className="mb-6 text-3xl font-bold">프로젝트</h2>
