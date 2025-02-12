@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <main className="container max-w-4xl px-6 py-12 mx-auto">
       {/* Home Section */}
-      <section className="flex items-center justify-between mb-12">
-        <div className="mr-10 shrink-0">
+      <section className="flex flex-col items-center justify-between mb-12 md:flex-row">
+        <div className="mb-6 md:mb-0 md:mr-10 shrink-0">
           <img
             className="object-cover w-56 h-56 border-2 rounded-full"
             src="/assets/images/ahnzi-avatar.png"
             alt="Avatar"
           />
         </div>
-        <div className="text-right">
+        <div className="text-center md:text-right">
           <h1 className="mb-2 text-4xl font-bold">Ahnzi</h1>
           <p className="mb-4 text-xl dark:text-gray-300">운동하는 개발자</p>
           <p className="text-gray-600 dark:text-gray-400">
@@ -28,7 +28,7 @@ const Home = () => {
       {/* About Section */}
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">소개</h2>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <h3 className="mb-4 text-xl font-semibold">🧑‍🎓 교육 및 활동</h3>
             <ul className="leading-relaxed text-gray-800 dark:text-gray-300">
@@ -49,10 +49,11 @@ const Home = () => {
           </article>
         </div>
       </section>
+
+      {/* Skills Section */}
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">기술</h2>
-
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 hover:scale-105">
             <FaHtml5 className="mb-1 text-4xl text-red-500" />
             <h3 className="text-lg font-semibold">HTML5</h3>
@@ -79,9 +80,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Projects Section */}
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">프로젝트</h2>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
             <img
               className="object-cover w-full h-48"
@@ -256,9 +259,11 @@ const Home = () => {
           </article>
         </div>
       </section>
+
+      {/* Contact Section */}
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">연락처</h2>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <form id="contactForm" className="space-y-4">
             <div>
               <label htmlFor="name" className="block mb-1 font-medium">
