@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaMoon } from "react-icons/fa6";
+import { FaMoon, FaSun } from "react-icons/fa6";
 import { useTheme } from "@hooks/useTheme";
 
 const Header = () => {
@@ -34,7 +34,7 @@ const Header = () => {
             className="w-10 h-10 p-2 bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700"
           >
             {theme === "dark" ? (
-              <FaMoon className="text-2xl text-yellow-400" />
+              <FaSun className="text-2xl text-yellow-400" />
             ) : (
               <FaMoon className="text-2xl text-gray-700" />
             )}
