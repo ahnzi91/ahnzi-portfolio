@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 html {
+  scroll-behavior: smooth;
   @apply text-black transition-colors duration-300 bg-white;
 }
 
@@ -12,4 +13,8 @@ html.dark {
 
 body {
   @apply min-h-screen;
+}
+
+section {
+  scroll-margin-top: 64px;
 }

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaMoon, FaSun } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -21,27 +20,27 @@ const Header = () => {
           </div>
 
           <div className="items-center hidden md:flex gap-x-6">
-            <Link to="/" className="transition-colors hover:text-blue-500">
+            <a href="#home" className="transition-colors hover:text-blue-500">
               홈
-            </Link>
-            <Link
-              to="/introduce"
-              className="transition-colors hover:text-blue-500"
-            >
+            </a>
+            <a href="#about" className="transition-colors hover:text-blue-500">
               소개
-            </Link>
-            <Link
-              to="/skills"
+            </a>
+            <a href="#skills" className="transition-colors hover:text-blue-500">
+              기술
+            </a>
+            <a
+              href="#projects"
               className="transition-colors hover:text-blue-500"
             >
-              기술
-            </Link>
-            <Link
-              to="/contact"
+              프로젝트
+            </a>
+            <a
+              href="#contact"
               className="transition-colors hover:text-blue-500"
             >
               연락처
-            </Link>
+            </a>
             <button
               onClick={toggleTheme}
               className="w-10 h-10 p-2 bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700"
