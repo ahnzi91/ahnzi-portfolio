@@ -17,8 +17,8 @@ const Home = () => {
         </div>
         <div className="text-right">
           <h1 className="mb-2 text-4xl font-bold">Ahnzi</h1>
-          <p className="mb-4 text-xl">운동하는 개발자</p>
-          <p className="text-gray-600">
+          <p className="mb-4 text-xl dark:text-gray-300">운동하는 개발자</p>
+          <p className="text-gray-600 dark:text-gray-400">
             항상 긍정적인 마인드로 개발하는 개발자입니다. 항상 긍정적인 마인드로
             개발하는 개발자입니다. 항상 긍정적인 마인드로 개발하는 개발자입니다.
           </p>
@@ -29,22 +29,22 @@ const Home = () => {
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">소개</h2>
         <div className="grid grid-cols-2 gap-6">
-          <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <h3 className="mb-4 text-xl font-semibold">🧑‍🎓 교육 및 활동</h3>
-            <ul className="leading-relaxed text-gray-800">
+            <ul className="leading-relaxed text-gray-800 dark:text-gray-300">
               <li>👉🏻 2024 멋쟁이사자처럼 프론트엔드 11기 수료</li>
               <li>👉🏻 2024 디웨일 QA 엔지니어</li>
               <li>👉🏻 2022 시큐레터 QA 엔지니어</li>
               <li>👉🏻 2019 시큐레터 프론트엔드 개발자</li>
             </ul>
           </article>
-          <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <h3 className="mb-4 text-xl font-semibold">🧑🏻‍💻 자격증</h3>
-            <ul className="leading-relaxed text-gray-800">
-              <li>👉🏻 ISTQB Certified Tester Foundation Level 자격증 취득</li>
-              <li>👉🏻 정보처리기사 자격증 취득</li>
-              <li>👉🏻 한국디지털콘텐츠학회 논문경진대회 동상</li>
-              <li>👉🏻 IoT(사물인터넷) 지식능력검정 자격증 취득</li>
+            <ul className="leading-relaxed text-gray-800 dark:text-gray-300">
+              <li>👉🏻 2024 ISTQB Certified Tester Foundation Level</li>
+              <li>👉🏻 2017 정보처리기사</li>
+              <li>👉🏻 2016 한국디지털콘텐츠학회 논문경진대회 동상</li>
+              <li>👉🏻 2016 IoT(사물인터넷) 지식능력검정</li>
             </ul>
           </article>
         </div>
@@ -53,27 +53,27 @@ const Home = () => {
         <h2 className="mb-6 text-3xl font-bold">기술</h2>
 
         <div className="grid grid-cols-3 gap-4">
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 hover:scale-105">
             <FaHtml5 className="mb-1 text-4xl text-red-500" />
             <h3 className="text-lg font-semibold">HTML5</h3>
           </div>
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <FaCss3Alt className="mb-1 text-4xl text-blue-500" />
             <h3 className="text-lg font-semibold">CSS3</h3>
           </div>
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <FaJs className="mb-1 text-4xl text-yellow-400" />
             <h3 className="text-lg font-semibold">JavaScript</h3>
           </div>
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <FaReact className="mb-1 text-4xl text-blue-400" />
             <h3 className="text-lg font-semibold">React</h3>
           </div>
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <BiLogoTypescript className="mb-1 text-4xl text-blue-800" />
             <h3 className="text-lg font-semibold">TypeScript</h3>
           </div>
-          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105">
+          <div className="flex flex-col items-center p-4 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
             <SiNextdotjs className="mb-1 text-4xl" />
             <h3 className="text-lg font-semibold">Next.js</h3>
           </div>
@@ -82,18 +82,18 @@ const Home = () => {
       <section className="mb-16">
         <h2 className="mb-6 text-3xl font-bold">프로젝트</h2>
         <div className="grid grid-cols-2 gap-6">
-          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
             <img
               className="object-cover w-full h-48"
               src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
               alt="굿즈 스토어 이미지"
             />
             <div className="p-6">
-              <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                굿즈 스토어
+              <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-100">
+                굿즈 스토어1
               </h3>
               <div className="mb-4 space-x-2">
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                <span className="dark:bg-gray-700 dark:text-gray-300 bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300 dark:border-gray-600">
                   React
                 </span>
                 <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
@@ -112,7 +112,7 @@ const Home = () => {
               <div className="flex justify-start space-x-2">
                 <a
                   href=""
-                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md dark:bg-gray-300 dark:text-gray-800"
                 >
                   Github
                 </a>
@@ -125,63 +125,18 @@ const Home = () => {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
             <img
               className="object-cover w-full h-48"
               src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
               alt="굿즈 스토어 이미지"
             />
             <div className="p-6">
-              <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                굿즈 스토어
+              <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-100">
+                굿즈 스토어1
               </h3>
               <div className="mb-4 space-x-2">
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
-                  React
-                </span>
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
-                  JavaScript
-                </span>
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
-                  TailwindCSS
-                </span>
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
-                  Zustand
-                </span>
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
-                  Tanstack
-                </span>
-              </div>
-              <div className="flex justify-start space-x-2">
-                <a
-                  href="https://github.com/ahnzi91/i-land"
-                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  href="https://i-land.netlify.app/"
-                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
-                  target="_blank"
-                >
-                  라이브 데모
-                </a>
-              </div>
-            </div>
-          </article>
-          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
-            <img
-              className="object-cover w-full h-48"
-              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
-              alt="굿즈 스토어 이미지"
-            />
-            <div className="p-6">
-              <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                굿즈 스토어
-              </h3>
-              <div className="mb-4 space-x-2">
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                <span className="dark:bg-gray-700 dark:text-gray-300 bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300 dark:border-gray-600">
                   React
                 </span>
                 <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
@@ -200,7 +155,7 @@ const Home = () => {
               <div className="flex justify-start space-x-2">
                 <a
                   href=""
-                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md dark:bg-gray-300 dark:text-gray-800"
                 >
                   Github
                 </a>
@@ -213,18 +168,18 @@ const Home = () => {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg hover:scale-105">
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
             <img
               className="object-cover w-full h-48"
               src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
               alt="굿즈 스토어 이미지"
             />
             <div className="p-6">
-              <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                굿즈 스토어
+              <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-100">
+                굿즈 스토어1
               </h3>
-              <div className="flex flex-wrap max-w-full gap-2 mb-4 overflow-hiddn">
-                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+              <div className="mb-4 space-x-2">
+                <span className="dark:bg-gray-700 dark:text-gray-300 bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300 dark:border-gray-600">
                   React
                 </span>
                 <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
@@ -243,7 +198,50 @@ const Home = () => {
               <div className="flex justify-start space-x-2">
                 <a
                   href=""
-                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md"
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md dark:bg-gray-300 dark:text-gray-800"
+                >
+                  Github
+                </a>
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-blue-600 rounded-md"
+                >
+                  라이브 데모
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
+            <img
+              className="object-cover w-full h-48"
+              src="https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=600"
+              alt="굿즈 스토어 이미지"
+            />
+            <div className="p-6">
+              <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-100">
+                굿즈 스토어1
+              </h3>
+              <div className="mb-4 space-x-2">
+                <span className="dark:bg-gray-700 dark:text-gray-300 bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300 dark:border-gray-600">
+                  React
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  JavaScript
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  TailwindCSS
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Zustand
+                </span>
+                <span className="bg-gray-200 text-xs px-2 py-0.5 rounded-md text-gray-700 border border-gray-300">
+                  Tanstack
+                </span>
+              </div>
+              <div className="flex justify-start space-x-2">
+                <a
+                  href=""
+                  className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md dark:bg-gray-300 dark:text-gray-800"
                 >
                   Github
                 </a>
@@ -269,7 +267,7 @@ const Home = () => {
               <input
                 type="text"
                 id="name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 name="name"
                 required
               />
@@ -281,7 +279,7 @@ const Home = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 name="email"
                 required
               />
@@ -293,7 +291,7 @@ const Home = () => {
               <textarea
                 type="text"
                 id="name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 name="name"
                 required
               ></textarea>
@@ -308,7 +306,7 @@ const Home = () => {
           <div className="flex flex-col items-center justify-center gap-y-4">
             <a
               href="#"
-              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              className="flex items-center space-x-2 text-gray-600 transition-colors dark:text-gray-300 hover:text-blue-500"
               target="_blank"
             >
               <FaGithub />
@@ -316,7 +314,7 @@ const Home = () => {
             </a>
             <a
               href="#"
-              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              className="flex items-center space-x-2 text-gray-600 transition-colors dark:text-gray-300 hover:text-blue-500"
               target="_blank"
             >
               <SiVelog />
@@ -324,7 +322,7 @@ const Home = () => {
             </a>
             <a
               href="#"
-              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              className="flex items-center space-x-2 text-gray-600 transition-colors dark:text-gray-300 hover:text-blue-500"
               target="_blank"
             >
               <SiGmail />
@@ -332,7 +330,7 @@ const Home = () => {
             </a>
             <a
               href="#"
-              className="flex items-center space-x-2 text-gray-600 transition-colors hover:text-blue-500"
+              className="flex items-center space-x-2 text-gray-600 transition-colors dark:text-gray-300 hover:text-blue-500"
               target="_blank"
             >
               <MdOutlinePhoneIphone />
