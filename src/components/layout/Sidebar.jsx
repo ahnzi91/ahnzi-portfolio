@@ -26,13 +26,13 @@ const Sidebar = ({ isOpen, onClose }) => {
         <a href="#about" className="transition-colors hover:text-blue-500">
           소개
         </a>
-        <a to="#skills" className="transition-colors hover:text-blue-500">
+        <a href="#skills" className="transition-colors hover:text-blue-500">
           기술
         </a>
-        <a to="#projects" className="transition-colors hover:text-blue-500">
+        <a href="#projects" className="transition-colors hover:text-blue-500">
           프로젝트
         </a>
-        <a to="#contact" className="transition-colors hover:text-blue-500">
+        <a href="#contact" className="transition-colors hover:text-blue-500">
           연락처
         </a>
         <button
