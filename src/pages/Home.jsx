@@ -3,16 +3,32 @@ import SkillsSection from "@components/SkillsSection";
 import ProjectSection from "@components/ProjectSection";
 import ContactSection from "@components/ContactSection";
 import HomeSection from "@components/HomeSection";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
-    <main className="container max-w-4xl px-6 py-12 mx-auto">
-      <HomeSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectSection />
-      <ContactSection />
-    </main>
+    <>
+      <Helmet>
+        <title>Ahnzi의 포트폴리오</title>
+        <meta
+          name="description"
+          content="Ahnzi의 프론트엔드 개발 포트폴리오입니다."
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/assets/images/ahnzi-avatar.png"
+        />
+      </Helmet>
+      <main className="container max-w-4xl px-6 py-12 mx-auto">
+        <HomeSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectSection />
+        <ContactSection />
+      </main>
+    </>
   );
 };
 

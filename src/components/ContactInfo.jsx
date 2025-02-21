@@ -3,8 +3,8 @@ import { SiGmail, SiVelog } from "react-icons/si";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 
 const contactLinks = [
-  { icon: <FaGithub />, label: "Github", href: "#" },
-  { icon: <SiVelog />, label: "Blog", href: "#" },
+  { icon: <FaGithub />, label: "Github", href: "https://github.com/ahnzi91" },
+  { icon: <SiVelog />, label: "Blog", href: "https://velog.io/@ahnzi/posts" },
   { icon: <SiGmail />, label: "ahnzi91@gmail.com", href: "#" },
   { icon: <MdOutlinePhoneIphone />, label: "010-8869-4712", href: "#" },
 ];
