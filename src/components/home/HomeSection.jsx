@@ -1,5 +1,5 @@
-import Avatar from "@components/Avatar";
-import Introduction from "@components/Introduction";
+import Avatar from "@components/home/Avatar";
+import Introduction from "@components/home/Introduction";
 
 export default function HomeSection() {
   return (

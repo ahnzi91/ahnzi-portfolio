@@ -1,9 +1,10 @@
-import AboutSection from "@components/AboutSection";
-import SkillsSection from "@components/SkillsSection";
-import ProjectSection from "@components/ProjectSection";
-import ContactSection from "@components/ContactSection";
-import HomeSection from "@components/HomeSection";
 import { Helmet } from "react-helmet-async";
+
+import AboutSection from "@components/about/AboutSection";
+import ContactSection from "@components/contact/ContactSection";
+import HomeSection from "@components/home/HomeSection";
+import ProjectSection from "@components/project/ProjectSection";
+import SkillsSection from "@components/skill/SkillsSection";
 
 const Home = () => {
   return (

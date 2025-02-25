@@ -2,7 +2,7 @@ import { FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
 
-import SkillCard from "@components/SkillCard";
+import SkillCard from "@components/skill/SkillCard";
 
 const skills = [
   { icon: <FaHtml5 className="mb-1 text-4xl text-red-500" />, title: "HTML5" },

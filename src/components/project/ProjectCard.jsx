@@ -8,13 +8,13 @@ export default function ProjectCard({
   liveDemoLink,
 }) {
   return (
-    <article className="overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
+    <article className="flex flex-col h-full overflow-hidden transition-transform duration-300 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 hover:scale-105">
       <img
         className="object-cover w-full h-48"
         src={image}
         alt="굿즈 스토어 이미지"
       />
-      <div className="p-6">
+      <div className="flex flex-col flex-grow p-6">
         <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-100">
           {title}
         </h3>
@@ -28,7 +28,7 @@ export default function ProjectCard({
             </span>
           ))}
         </div>
-        <div className="flex justify-start space-x-2">
+        <div className="flex justify-start mt-auto space-x-2">
           <a
             href={githubLink}
             className="px-3 py-1 text-sm text-white bg-gray-800 rounded-md dark:bg-gray-300 dark:text-gray-800"
