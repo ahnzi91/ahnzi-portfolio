@@ -4,7 +4,7 @@ export default function AboutSection() {
       <h2 className="mb-6 text-3xl font-bold">소개</h2>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
-          <h3 className="mb-4 text-xl font-semibold">🧑‍🎓 교육 및 활동</h3>
+          <h3 className="mb-4 text-xl font-semibold">🧑‍💻 경력</h3>
           <ul className="leading-relaxed text-gray-800 dark:text-gray-300">
             <li>👉🏻 2024 멋쟁이사자처럼 프론트엔드 11기 수료</li>
             <li>👉🏻 2024 디웨일 QA 엔지니어</li>
@@ -13,7 +13,7 @@ export default function AboutSection() {
           </ul>
         </article>
         <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
-          <h3 className="mb-4 text-xl font-semibold">🧑🏻‍💻 자격증</h3>
+          <h3 className="mb-4 text-xl font-semibold">📜 자격증</h3>
           <ul className="leading-relaxed text-gray-800 dark:text-gray-300">
             <li>👉🏻 2024 ISTQB Certified Tester Foundation Level</li>
             <li>👉🏻 2017 정보처리기사</li>
