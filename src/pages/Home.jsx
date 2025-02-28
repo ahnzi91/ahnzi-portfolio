@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-import AboutSection from "@components/about/AboutSection";
+import ProfileSection from "@components/profile/ProfileSection";
 import ContactSection from "@components/contact/ContactSection";
 import HomeSection from "@components/home/HomeSection";
 import ProjectSection from "@components/project/ProjectSection";
@@ -24,7 +24,7 @@ const Home = () => {
       </Helmet>
       <main className="container max-w-4xl px-6 py-12 mx-auto">
         <HomeSection />
-        <AboutSection />
+        <ProfileSection />
         <SkillsSection />
         <ProjectSection />
         <ContactSection />

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { FaMoon, FaSun } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
@@ -20,21 +21,16 @@ const Sidebar = ({ isOpen, onClose }) => {
         <FaTimes className="text-2xl" />
       </button>
       <nav className="flex flex-col px-6 mt-10 space-y-4">
-        <a href="#home" className="transition-colors hover:text-blue-500">
+        <Link to="/" className="transition-colors hover:text-blue-500">
           홈
-        </a>
-        <a href="#about" className="transition-colors hover:text-blue-500">
+        </Link>
+        <Link to="/about" className="transition-colors hover:text-blue-500">
           소개
-        </a>
-        <a href="#skills" className="transition-colors hover:text-blue-500">
-          기술
-        </a>
-        <a href="#projects" className="transition-colors hover:text-blue-500">
+        </Link>
+        <Link to="/project" className="transition-colors hover:text-blue-500">
           프로젝트
-        </a>
-        <a href="#contact" className="transition-colors hover:text-blue-500">
-          연락처
-        </a>
+        </Link>
+
         <button
           onClick={toggleTheme}
           className="w-full p-2 bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700"

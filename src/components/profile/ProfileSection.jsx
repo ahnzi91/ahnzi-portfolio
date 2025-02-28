@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
     <section id="about" className="mb-16">
-      <h2 className="mb-6 text-3xl font-bold">소개</h2>
+      <h2 className="mb-6 text-3xl font-bold">프로필</h2>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <article className="p-6 transition-transform duration-300 bg-gray-100 rounded-lg shadow-md hover:scale-105 dark:bg-gray-800">
           <h3 className="mb-4 text-xl font-semibold">🧑‍💻 경력</h3>

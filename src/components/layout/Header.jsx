@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useTheme } from "@hooks/useTheme";
 
 import Sidebar from "@components/layout/Sidebar";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { theme, toggleTheme } = useTheme();
@@ -20,27 +21,19 @@ const Header = () => {
           </div>
 
           <div className="items-center hidden md:flex gap-x-6">
-            <a href="#home" className="transition-colors hover:text-blue-500">
+            <Link to="/" className="transition-colors hover:text-blue-500">
               홈
-            </a>
-            <a href="#about" className="transition-colors hover:text-blue-500">
+            </Link>
+            <Link to="/about" className="transition-colors hover:text-blue-500">
               소개
-            </a>
-            <a href="#skills" className="transition-colors hover:text-blue-500">
-              기술
-            </a>
-            <a
-              href="#projects"
+            </Link>
+            <Link
+              href="/project"
               className="transition-colors hover:text-blue-500"
             >
               프로젝트
-            </a>
-            <a
-              href="#contact"
-              className="transition-colors hover:text-blue-500"
-            >
-              연락처
-            </a>
+            </Link>
+
             <button
               onClick={toggleTheme}
               className="w-10 h-10 p-2 bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-700"
